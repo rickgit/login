@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  2016-01-09-rick
+//  2016-01-09-login
 //
 //  Created by Anshu Wang on 16/1/9.
 //  Copyright (c) 2016年 rick. All rights reserved.

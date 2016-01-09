@@ -1,6 +1,6 @@
 //
-//  _016_01_09_rickTests.swift
-//  2016-01-09-rickTests
+//  _016_01_09_loginTests.swift
+//  2016-01-09-loginTests
 //
 //  Created by Anshu Wang on 16/1/9.
 //  Copyright (c) 2016年 rick. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class _016_01_09_rickTests: XCTestCase {
+class _016_01_09_loginTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
