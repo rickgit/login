@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A516457F-8EF7-4A57-AC0F-13764C97D932</string>
 	<key>IDESourceControlProjectName</key>
-	<string>2016-01-09-rick</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9E8FD30F0BDABDE17134AB3F49AC1B299B595C58</key>
 		<string>https://github.com/rickgit/login.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>2016-01-09-rick/2016-01-09-rick.xcodeproj</string>
+	<string>2016-01-09-rick/2016-01-09-rick.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9E8FD30F0BDABDE17134AB3F49AC1B299B595C58</key>
