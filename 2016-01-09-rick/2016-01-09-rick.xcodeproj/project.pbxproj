@@ -12,6 +12,7 @@
 		935AD51D1C41266600818D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AD51C1C41266600818D4B /* AppDelegate.swift */; };
 		935AD5241C41266600818D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935AD5231C41266600818D4B /* Images.xcassets */; };
 		935AD5331C41266600818D4B /* _016_01_09_rickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AD5321C41266600818D4B /* _016_01_09_rickTests.swift */; };
+		939F636A1C41E8F000BFAC00 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 939F63691C41E8F000BFAC00 /* img.png */; };
 		93BAB3521C4132CD0085AFBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BAB3501C4132CD0085AFBA /* LaunchScreen.xib */; };
 		93BAB3531C4132CD0085AFBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BAB3511C4132CD0085AFBA /* Main.storyboard */; };
 		93BAB35F1C41398B0085AFBA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BAB35E1C41398B0085AFBA /* Login.storyboard */; };
@@ -37,6 +38,7 @@
 		935AD52C1C41266600818D4B /* 2016-01-09-rickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2016-01-09-rickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935AD5311C41266600818D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935AD5321C41266600818D4B /* _016_01_09_rickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _016_01_09_rickTests.swift; sourceTree = "<group>"; };
+		939F63691C41E8F000BFAC00 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img.png; path = main/res/drawable/img.png; sourceTree = "<group>"; };
 		93BAB3501C4132CD0085AFBA /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		93BAB3511C4132CD0085AFBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		93BAB35E1C41398B0085AFBA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Login/Login.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		935AD5411C4126F700818D4B /* drawable */ = {
 			isa = PBXGroup;
 			children = (
+				939F63691C41E8F000BFAC00 /* img.png */,
 			);
 			name = drawable;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				930A55071C414F5100D3856B /* Info.plist in Resources */,
 				93BAB3521C4132CD0085AFBA /* LaunchScreen.xib in Resources */,
 				93BAB3531C4132CD0085AFBA /* Main.storyboard in Resources */,
+				939F636A1C41E8F000BFAC00 /* img.png in Resources */,
 				93BAB35F1C41398B0085AFBA /* Login.storyboard in Resources */,
 				935AD5241C41266600818D4B /* Images.xcassets in Resources */,
 			);
