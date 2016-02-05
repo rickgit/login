@@ -9,9 +9,11 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
-    override func viewDidLoad() {
+    
+    @IBOutlet weak var svHeight: NSLayoutConstraint!
+         override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
@@ -20,7 +22,18 @@ class LoginViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+    //更新约束
+//    - (void)updateViewConstraints {
+//    [super updateViewConstraints];
+//    //设置为两个屏幕的宽度
+//    self.viewWidth.constant = CGRectGetWidth([UIScreen mainScreen].bounds) * 2;
+//    self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
+//    }
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        self.svHeight.constant=CGRectGetHeight(UIScreen.mainScreen().bounds) 
+        
+    }
 
     /*
     // MARK: - Navigation

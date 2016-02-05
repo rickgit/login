@@ -22,7 +22,9 @@ class MainController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func onLoginBtnTap(sender: AnyObject) {
-        presentViewController( UIStoryboard(name: "Login", bundle: nil).instantiateViewControllerWithIdentifier("LoginViewController") as! UIViewController, animated: true, completion: nil)//LoginViewController 为viewController的storyboard id
+        presentViewController( UIStoryboard(name: "Login", bundle: nil).instantiateViewControllerWithIdentifier("LoginNavViewController") as! UIViewController, animated: true, completion: nil)//LoginViewController 为viewController的storyboard id
+        
+//        presentViewController( ScrollViewController(), animated: true, completion: nil)
     }
  
 
