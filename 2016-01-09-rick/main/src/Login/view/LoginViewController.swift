@@ -8,13 +8,17 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseViewController {
     
+    @IBAction func onRigist(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: { () -> Void in
+            NSLog("dismiss Login ViewController")
+        })
+    }
     @IBOutlet weak var svHeight: NSLayoutConstraint!
          override func viewDidLoad() {
         super.viewDidLoad()
-        
-
+         
         // Do any additional setup after loading the view.
     }
 
@@ -30,8 +34,8 @@ class LoginViewController: UIViewController {
 //    self.secondViewLeading.constant = CGRectGetWidth([UIScreen mainScreen].bounds);
 //    }
     override func updateViewConstraints() {
-        super.updateViewConstraints()
-        self.svHeight.constant=CGRectGetHeight(UIScreen.mainScreen().bounds) 
+        super.updateViewConstraints() 
+//        self.svHeight.constant=CGRectGetHeight(UIScreen.mainScreen().bounds)
         
     }
 

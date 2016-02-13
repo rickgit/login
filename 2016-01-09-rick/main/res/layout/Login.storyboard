@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tm6-vy-60h">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img.png" translatesAutoresizingMaskIntoConstraints="NO" id="R2L-RT-Q4z">
                                                 <rect key="frame" x="180" y="89" width="240" height="128"/>
@@ -31,7 +31,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用户名" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nh8-3K-0SZ">
-                                                <rect key="frame" x="64" y="281" width="51" height="21"/>
+                                                <rect key="frame" x="16" y="281" width="51" height="21"/>
                                                 <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="51" id="ujs-NZ-PsE"/>
@@ -41,7 +41,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="用户" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjY-gY-BRp">
-                                                <rect key="frame" x="131" y="272" width="405" height="30"/>
+                                                <rect key="frame" x="83" y="272" width="501" height="30"/>
                                                 <animations/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="240" id="PKn-tW-NZO"/>
@@ -56,20 +56,20 @@
                                                 </variation>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="密码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atn-A6-jwr">
-                                                <rect key="frame" x="81" y="334" width="34" height="29"/>
+                                                <rect key="frame" x="33" y="334" width="34" height="29"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="密码" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EeY-cP-4Ly">
-                                                <rect key="frame" x="131" y="334" width="405" height="30"/>
+                                                <rect key="frame" x="83" y="334" width="501" height="30"/>
                                                 <animations/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VVR-Uf-ZPp">
-                                                <rect key="frame" x="476" y="396" width="60" height="30"/>
+                                                <rect key="frame" x="524" y="396" width="60" height="30"/>
                                                 <animations/>
                                                 <state key="normal" title="忘记密码">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -81,6 +81,9 @@
                                                 <state key="normal" title="注册">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onRigist:" destination="g5k-Ex-gjU" eventType="touchUpInside" id="Jez-uB-WLZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FOg-xQ-nOw">
                                                 <rect key="frame" x="285" y="458" width="30" height="30"/>
@@ -99,8 +102,8 @@
                                             <constraint firstItem="EeY-cP-4Ly" firstAttribute="trailing" secondItem="jjY-gY-BRp" secondAttribute="trailing" id="EE3-Y1-IC4"/>
                                             <constraint firstItem="i0Y-SZ-tN1" firstAttribute="top" secondItem="FOg-xQ-nOw" secondAttribute="bottom" constant="32" id="GBs-wX-yw2"/>
                                             <constraint firstItem="i0Y-SZ-tN1" firstAttribute="top" secondItem="FOg-xQ-nOw" secondAttribute="bottom" constant="32" id="JKV-Aq-hYF"/>
-                                            <constraint firstAttribute="trailing" secondItem="jjY-gY-BRp" secondAttribute="trailing" constant="64" id="Lh6-0w-M5n"/>
-                                            <constraint firstAttribute="height" constant="800" id="Q6X-qL-cxa"/>
+                                            <constraint firstAttribute="trailing" secondItem="jjY-gY-BRp" secondAttribute="trailing" constant="16" id="Lh6-0w-M5n"/>
+                                            <constraint firstAttribute="height" constant="1000" id="Q6X-qL-cxa"/>
                                             <constraint firstItem="nh8-3K-0SZ" firstAttribute="top" secondItem="R2L-RT-Q4z" secondAttribute="bottom" constant="64" id="T8a-Od-6zC"/>
                                             <constraint firstItem="EeY-cP-4Ly" firstAttribute="trailing" secondItem="VVR-Uf-ZPp" secondAttribute="trailing" id="UaA-Da-yck"/>
                                             <constraint firstItem="VVR-Uf-ZPp" firstAttribute="top" secondItem="EeY-cP-4Ly" secondAttribute="bottom" constant="32" id="VUy-uR-Xjr"/>
@@ -108,7 +111,7 @@
                                             <constraint firstItem="atn-A6-jwr" firstAttribute="centerY" secondItem="EeY-cP-4Ly" secondAttribute="centerY" id="YzW-l6-NIz"/>
                                             <constraint firstItem="atn-A6-jwr" firstAttribute="top" secondItem="nh8-3K-0SZ" secondAttribute="bottom" constant="32" id="i37-Fh-drP"/>
                                             <constraint firstItem="FOg-xQ-nOw" firstAttribute="top" secondItem="VVR-Uf-ZPp" secondAttribute="bottom" constant="32" id="iwU-st-Yjd"/>
-                                            <constraint firstItem="nh8-3K-0SZ" firstAttribute="leading" secondItem="tm6-vy-60h" secondAttribute="leading" constant="64" id="kL0-qB-Gj5"/>
+                                            <constraint firstItem="nh8-3K-0SZ" firstAttribute="leading" secondItem="tm6-vy-60h" secondAttribute="leading" constant="16" id="kL0-qB-Gj5"/>
                                             <constraint firstItem="nh8-3K-0SZ" firstAttribute="centerY" secondItem="jjY-gY-BRp" secondAttribute="centerY" constant="4.5" id="kgb-WG-fsY"/>
                                             <constraint firstItem="EeY-cP-4Ly" firstAttribute="leading" secondItem="jjY-gY-BRp" secondAttribute="leading" id="mnZ-OE-LVq"/>
                                             <constraint firstItem="R2L-RT-Q4z" firstAttribute="top" secondItem="tm6-vy-60h" secondAttribute="top" constant="89" id="y93-i7-xoh"/>

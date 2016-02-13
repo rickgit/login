@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "main/src/MainController.swift"
-            timestampString = "475515259.686454"
+            filePath = "main/src/SimpleController.swift"
+            timestampString = "476530792.342318"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "MainController"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "SimpleController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "main/src/Login/view/LoginViewController.swift"
-            timestampString = "476374935.012154"
+            timestampString = "476527234.842942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "updateViewConstraints()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "main/src/Login/view/LoginViewController.swift"
+            timestampString = "476527234.842942"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "onRigist(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

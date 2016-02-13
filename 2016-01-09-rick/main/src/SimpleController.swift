@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainController: UIViewController {
+class SimpleController: UIViewController {
 
     @IBOutlet weak  var btnLogin: UIButton!
     override func viewDidLoad() {
@@ -23,8 +23,8 @@ class MainController: UIViewController {
     }
     @IBAction func onLoginBtnTap(sender: AnyObject) {
         presentViewController( UIStoryboard(name: "Login", bundle: nil).instantiateViewControllerWithIdentifier("LoginNavViewController") as! UIViewController, animated: true, completion: nil)//LoginViewController 为viewController的storyboard id
-        
 //        presentViewController( ScrollViewController(), animated: true, completion: nil)
+           
     }
  
 
