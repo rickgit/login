@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9303FB0C1C7A1FC500A25785 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9303FB0B1C7A1FC500A25785 /* CustomViewController.swift */; };
 		930532711C57C398004ED650 /* ScrollAutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930532701C57C398004ED650 /* ScrollAutolayoutViewController.swift */; };
 		930532731C57C682004ED650 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930532721C57C682004ED650 /* ScrollViewController.swift */; };
 		930A55061C414F0A00D3856B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A55051C414F0A00D3856B /* LoginViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9303FB0B1C7A1FC500A25785 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		930532701C57C398004ED650 /* ScrollAutolayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollAutolayoutViewController.swift; path = "2016-01-09-rick.xcodeproj/../main/src/Login/view/ScrollAutolayoutViewController.swift"; sourceTree = "<group>"; };
 		930532721C57C682004ED650 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollViewController.swift; path = main/src/Login/view/ScrollViewController.swift; sourceTree = "<group>"; };
 		930A55051C414F0A00D3856B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = main/src/Login/view/LoginViewController.swift; sourceTree = "<group>"; };
@@ -174,6 +176,8 @@
 		935AD5421C41270200818D4B /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				937001A51C6F3ACF002862E8 /* viewcontroller */,
+				937001A41C6F3AC1002862E8 /* widget */,
 				935AD5431C41271B00818D4B /* view */,
 			);
 			name = Login;
@@ -203,10 +207,25 @@
 		936D241B1C64FA9600C8947F /* address */ = {
 			isa = PBXGroup;
 			children = (
+				9303FB0B1C7A1FC500A25785 /* CustomViewController.swift */,
 				93A631D01C674FED00C81FB7 /* ChatViewController.swift */,
 				936D241C1C64FAD800C8947F /* AddressViewController.swift */,
 			);
 			name = address;
+			sourceTree = "<group>";
+		};
+		937001A41C6F3AC1002862E8 /* widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = widget;
+			sourceTree = "<group>";
+		};
+		937001A51C6F3ACF002862E8 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewcontroller;
 			sourceTree = "<group>";
 		};
 		93ADB9781C66DF2E0064DD1A /* common */ = {
@@ -333,6 +352,7 @@
 				936D241F1C64FAEE00C8947F /* MainViewController.swift in Sources */,
 				930532711C57C398004ED650 /* ScrollAutolayoutViewController.swift in Sources */,
 				93A631D51C68174700C81FB7 /* DimMicro.swift in Sources */,
+				9303FB0C1C7A1FC500A25785 /* CustomViewController.swift in Sources */,
 				930A55061C414F0A00D3856B /* LoginViewController.swift in Sources */,
 				93BAB3611C413C4F0085AFBA /* SimpleController.swift in Sources */,
 				936D241D1C64FAD800C8947F /* AddressViewController.swift in Sources */,

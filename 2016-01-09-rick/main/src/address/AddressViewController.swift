@@ -12,6 +12,7 @@ class AddressViewController: BaseViewController,UITableViewDataSource,UITableVie
 
     @IBOutlet weak var dataTableView: UITableView!
     var datas:NSMutableArray!=NSMutableArray()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dataTableView.dataSource=self;
@@ -35,8 +36,7 @@ class AddressViewController: BaseViewController,UITableViewDataSource,UITableVie
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         return datas.count;
     }
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
- 
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{ 
         var cell:UITableViewCell
         if(indexPath.row==0){
             cell=tableView.dequeueReusableCellWithIdentifier("addressFixCell") as!UITableViewCell
@@ -54,6 +54,30 @@ class AddressViewController: BaseViewController,UITableViewDataSource,UITableVie
 //        }
         return cell
     }
+    func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
+    func tableView(tableView: UITableView, editActionsForRowAtIndexPath indexPath: NSIndexPath) -> [AnyObject]? {
+        
+        var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") {action in
+            //handle delete
+        }
+        
+        var editAction = UITableViewRowAction(style: .Normal, title: "Edit") {action in
+            //handle edit
+        }
+        
+        return [deleteAction, editAction]
+    }
+    
+//    func tableView(tableView: UITableView, editingStyleForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCellEditingStyle {
+//        return UITableViewCellEditingStyle.Delete
+//    }
     //MARK: Called after the user changes the selection.
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath){
         NSLog("Log \(indexPath.row)")

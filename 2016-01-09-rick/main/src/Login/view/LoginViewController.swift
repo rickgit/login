@@ -10,10 +10,23 @@ import UIKit
 
 class LoginViewController: BaseViewController {
     
+    @IBOutlet weak var imageviewLogo: UIImageView!
     @IBAction func onRigist(sender: AnyObject) {
-        dismissViewControllerAnimated(true, completion: { () -> Void in
-            NSLog("dismiss Login ViewController")
-        })
+//        dismissViewControllerAnimated(true, completion: { () -> Void in
+//            NSLog("dismiss Login ViewController")
+//
+//            
+//        })
+        var url=NSURL(string: "http://d.hiphotos.baidu.com/baike/w%3D730/sign=ae20b38f962397ddd6799a076982b216/9c16fdfaaf51f3de7f97330c93eef01f3a2979b5.jpg")
+        var request=NSURLRequest(URL: url!)
+        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()){(response:NSURLResponse!, data:NSData!, error:NSError!)->Void in
+//            NSLog("\(data)")
+            var img=UIImage(data: data)
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                self.imageviewLogo.image=img
+            })
+            
+        }
     }
     @IBOutlet weak var svHeight: NSLayoutConstraint!
          override func viewDidLoad() {

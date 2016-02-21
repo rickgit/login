@@ -140,6 +140,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Tth-cJ-bSu"/>
                     <connections>
+                        <outlet property="imageviewLogo" destination="R2L-RT-Q4z" id="XYO-ye-KVe"/>
                         <outlet property="svHeight" destination="Q6X-qL-cxa" id="5qb-ML-MUn"/>
                     </connections>
                 </viewController>
