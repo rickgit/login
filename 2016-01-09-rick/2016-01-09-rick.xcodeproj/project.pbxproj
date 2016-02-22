@@ -13,6 +13,7 @@
 		930A55061C414F0A00D3856B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930A55051C414F0A00D3856B /* LoginViewController.swift */; };
 		930A55071C414F5100D3856B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 935AD51B1C41266600818D4B /* Info.plist */; };
 		932E28DA1C64DDCD0001B1FD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932E28D91C64DDCD0001B1FD /* Login.storyboard */; };
+		934F0A731C7B4D270077A35E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 934F0A721C7B4D270077A35E /* Settings.bundle */; };
 		935AD51D1C41266600818D4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AD51C1C41266600818D4B /* AppDelegate.swift */; };
 		935AD5241C41266600818D4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935AD5231C41266600818D4B /* Images.xcassets */; };
 		935AD5331C41266600818D4B /* _016_01_09_rickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935AD5321C41266600818D4B /* _016_01_09_rickTests.swift */; };
@@ -44,6 +45,7 @@
 		930532721C57C682004ED650 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollViewController.swift; path = main/src/Login/view/ScrollViewController.swift; sourceTree = "<group>"; };
 		930A55051C414F0A00D3856B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = main/src/Login/view/LoginViewController.swift; sourceTree = "<group>"; };
 		932E28D91C64DDCD0001B1FD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		934F0A721C7B4D270077A35E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = main/res/Settings.bundle; sourceTree = "<group>"; };
 		935AD5171C41266600818D4B /* 2016-01-09-rick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2016-01-09-rick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		935AD51B1C41266600818D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		935AD51C1C41266600818D4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 			children = (
 				935AD5411C4126F700818D4B /* drawable */,
 				935AD5471C412F2400818D4B /* layout */,
+				934F0A721C7B4D270077A35E /* Settings.bundle */,
 			);
 			name = res;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				93BAB3531C4132CD0085AFBA /* Main.storyboard in Resources */,
 				939F636A1C41E8F000BFAC00 /* img.png in Resources */,
 				935AD5241C41266600818D4B /* Images.xcassets in Resources */,
+				934F0A731C7B4D270077A35E /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
